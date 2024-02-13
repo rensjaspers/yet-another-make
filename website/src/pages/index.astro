@@ -6,11 +6,12 @@ import MainLayout from "../layouts/MainLayout.astro";
   <main class="container">
     <section id="hero">
       <div class="hook">
-        <h1>Extremely Fast Build System</h1>
+        <h1>The Future of Build Systems</h1>
         <p>
-          Yet Another Make is a build system that is designed to be extremely
-          fast and easy to use. It is designed to be a drop-in replacement for
-          Make, and is compatible with Makefiles.
+          YAM (Yet Another Make) is a cutting-edge build system delivering
+          lightning-fast performance without compromising ease of use. Built
+          with modern technologies, it's the perfect choice for developers
+          seeking a robust replacement for Make.
         </p>
         <div class="call-to-action">
           <a role="button" href="/docs/getting-started/quick-start"
@@ -29,52 +30,79 @@ import MainLayout from "../layouts/MainLayout.astro";
     <section>
       <div class="grid">
         <article>
-          <h3>Fast</h3>
+          <h3>Speed</h3>
           <p>
-            Yet Another Make is designed to be extremely fast. It is written in
-            Rust, and is designed to be a drop-in replacement for Make.
+            YAM sets new benchmarks for build speed, leveraging advanced caching
+            and parallel processing to dramatically reduce your build times.
           </p>
         </article>
         <article>
-          <h3>Easy To Use</h3>
+          <h3>Usability</h3>
           <p>
-            Yet Another Make is designed to be easy to use. It is designed to be
-            a drop-in replacement for Make, and is compatible with Makefiles.
+            With an intuitive command-line interface and support for Makefile
+            conversion, YAM seamlessly integrates into your existing workflow.
           </p>
         </article>
         <article>
-          <h3>Extensible</h3>
+          <h3>Extensibility</h3>
           <p>
-            Yet Another Make is designed to be extensible. It is designed to be
-            a drop-in replacement for Make, and is compatible with Makefiles.
+            Thanks to its modular architecture, you can easily customize and
+            extend YAM to meet your specific build requirements.
+          </p>
+        </article>
+      </div>
+      <div class="grid">
+        <article>
+          <h3>Reliability</h3>
+          <p>
+            YAM ensures consistent and repeatable build results, crucial for
+            development teams and CI/CD pipelines.
+          </p>
+        </article>
+        <article>
+          <h3>Compatibility</h3>
+          <p>
+            Maintain your existing Makefiles with YAM's compatibility layer,
+            making the transition smooth and seamless.
+          </p>
+        </article>
+        <article>
+          <h3>Deterministic Builds</h3>
+          <p>
+            YAM guarantees identical results from the same source code, crucial
+            for debugging and CI/CD.
           </p>
         </article>
       </div>
     </section>
   </main>
+
+  <style>
+    main {
+      display: flex;
+      flex-direction: column;
+      gap: 5rem;
+    }
+
+    article {
+      text-align: center;
+    }
+
+    #hero {
+      display: flex;
+    }
+
+    .hook {
+      margin: auto;
+      max-width: 700px;
+      text-align: center;
+    }
+
+    .call-to-action {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
 </MainLayout>
-
-<style>
-  main {
-    display: flex;
-    flex-direction: column;
-    gap: 5rem;
-  }
-
-  #hero {
-    display: flex;
-  }
-
-  .hook {
-    margin: auto;
-    max-width: 700px;
-    text-align: center;
-  }
-
-  .call-to-action {
-    display: flex;
-    gap: 1rem;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
-</style>
